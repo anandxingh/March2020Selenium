@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [My Hub Spot App Test automation sanity suite]">
+  <test name="Hub Spot functional test(failed)">
+    <classes>
+      <class name="TestNGSession.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyLoginPageTitleTest"/>
+        </methods>
+      </class> <!-- TestNGSession.LoginPageTest -->
+    </classes>
+  </test> <!-- Hub Spot functional test(failed) -->
+</suite> <!-- Failed suite [My Hub Spot App Test automation sanity suite] -->
